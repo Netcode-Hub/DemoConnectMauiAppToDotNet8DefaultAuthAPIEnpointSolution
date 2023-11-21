@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DemoMauiAppToEnpoint.MainPage"
+             xmlns:viewmodel="clr-namespace:DemoMauiAppToEnpoint.ViewModels"
+               x:DataType="viewmodel:MainPageViewModel">
+
+    <VerticalStackLayout Margin="20">
+        <HorizontalStackLayout Spacing="20">
+            <Button Text="Weather" IsVisible="{Binding IsAuthenticated}" Command="{Binding GoToWeatherForecastCommand}"></Button>
+            <Button Text="Logout" IsVisible="{Binding IsAuthenticated}" Command="{Binding LogoutCommand}" Background="IndianRed"></Button>
+            <Label TextColor="CadetBlue" FontAttributes="Bold" Text="{Binding UserName, StringFormat='Hello {0}'}" Margin="0,0,0,0" HorizontalOptions="End"></Label>
+        </HorizontalStackLayout>
+        <Image Source="dotnet_bot.png" HorizontalOptions="CenterAndExpand" VerticalOptions="Start" />
+        <Label Text="Please Create an Account" Margin="0,0,0,10"/>
+        <Label Text="Email Address" />
+        <Entry Text="{Binding RegisterModel.Email}" Margin="0,0,0,5"></Entry>
+        <Label Text="Password" />
+        <Entry Text="{Binding RegisterModel.Password}" IsPassword="True" Margin="0,0,0,5"></Entry>
+        <Button Text="Register" Command="{Binding RegisterCommand}" TextColor="White" Background="Black" CornerRadius="0" Margin="0,0,0,35"></Button>
+
+
+        <Label Text="Please Login an Account" Margin="0,0,0,10"/>
+        <Label Text="Email Address" />
+        <Entry Text="{Binding LoginModel.Email}" Margin="0,0,0,5"></Entry>
+        <Label Text="Password" />
+        <Entry Text="{Binding LoginModel.Password}" IsPassword="True" Margin="0,0,0,5"></Entry>
+        <Button Text="Login" Command="{Binding LoginCommand}" CornerRadius="0"></Button>
+
+    </VerticalStackLayout>
+
+</ContentPage>

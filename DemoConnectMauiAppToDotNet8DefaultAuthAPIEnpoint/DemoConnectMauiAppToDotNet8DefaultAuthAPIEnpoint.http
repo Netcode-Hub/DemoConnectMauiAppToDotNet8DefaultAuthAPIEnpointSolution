@@ -1,0 +1,6 @@
+@DemoConnectMauiAppToDotNet8DefaultAuthAPIEnpoint_HostAddress = http://localhost:5140
+
+GET {{DemoConnectMauiAppToDotNet8DefaultAuthAPIEnpoint_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

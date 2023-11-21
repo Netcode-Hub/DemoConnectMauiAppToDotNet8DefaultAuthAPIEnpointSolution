@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34310.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoConnectMauiAppToDotNet8DefaultAuthAPIEnpoint", "DemoConnectMauiAppToDotNet8DefaultAuthAPIEnpoint\DemoConnectMauiAppToDotNet8DefaultAuthAPIEnpoint.csproj", "{79257D3D-34F1-4BA6-A0C2-7A57CA66EAA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMauiAppToEnpoint", "DemoMauiAppToEnpoint\DemoMauiAppToEnpoint.csproj", "{F0D5EBFC-DEBC-4506-81F0-5F03822C8DCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79257D3D-34F1-4BA6-A0C2-7A57CA66EAA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79257D3D-34F1-4BA6-A0C2-7A57CA66EAA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79257D3D-34F1-4BA6-A0C2-7A57CA66EAA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79257D3D-34F1-4BA6-A0C2-7A57CA66EAA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0D5EBFC-DEBC-4506-81F0-5F03822C8DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0D5EBFC-DEBC-4506-81F0-5F03822C8DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0D5EBFC-DEBC-4506-81F0-5F03822C8DCB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F0D5EBFC-DEBC-4506-81F0-5F03822C8DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0D5EBFC-DEBC-4506-81F0-5F03822C8DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0D5EBFC-DEBC-4506-81F0-5F03822C8DCB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34041E46-0F65-48AC-96A8-AC4838696583}
+	EndGlobalSection
+EndGlobal
